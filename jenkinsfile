@@ -24,10 +24,11 @@ pipeline{
         stage("publish"){
             steps{
                 script{
-                    bat "dotnet publish --no--restore --configration release --output .\\publish"
+                    bat "dotnet publish --no-restore --configuration release --output .\\publish"
                 }
             }
         }
+}
         post{
             success{
                 echo "Build,Test,and publish stages completed succesfully."
