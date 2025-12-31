@@ -27,11 +27,11 @@ pipeline{
                     bat "dotnet publish --no--restore --configration release --output .\\publish"
                 }
             }
-        }
-        post{
+        }     
+    }
+ post{
             success{
                 echo "Build,Test,and publish stages completed succesfully."
             }
-        }
-    }
+}
 }
