@@ -18,13 +18,13 @@ pipeline{
         }
         stage("Test"){
             steps{
-              bat "donet test --no-restore --configration Release"
+              bat "donet test --no-restore --configuration Release"
             }
         }
         stage("publish"){
             steps{
                 script{
-                    bat "dotnet publish --no-restore --configration Release --output .\\publish"
+                    bat "dotnet publish --no-restore --configuration Release --output .\\publish"
                 }
             }
         }     
