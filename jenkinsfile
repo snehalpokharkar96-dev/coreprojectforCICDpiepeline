@@ -28,9 +28,11 @@ pipeline{
                 }
             }
         }
-        post{
+       
+    }
+     post{
             success{
                 echo "Build,Test,and publish stages completed succesfully."
             }
         }
-    }
+}

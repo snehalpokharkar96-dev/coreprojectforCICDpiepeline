@@ -31,3 +31,4 @@ D:\DevOps_Practice\CoreProjectForPipeline\CoreProjectForPipeline\obj\Debug\net8.
 D:\DevOps_Practice\CoreProjectForPipeline\CoreProjectForPipeline\obj\Debug\net8.0\CoreProjectForPipeline.pdb
 D:\DevOps_Practice\CoreProjectForPipeline\CoreProjectForPipeline\obj\Debug\net8.0\CoreProjectForPipeline.genruntimeconfig.cache
 D:\DevOps_Practice\CoreProjectForPipeline\CoreProjectForPipeline\obj\Debug\net8.0\ref\CoreProjectForPipeline.dll
+D:\DevOps_Practice\CoreProjectForPipeline\CoreProjectForPipeline\obj\Debug\net8.0\CoreProjectForPipeline.sourcelink.json
