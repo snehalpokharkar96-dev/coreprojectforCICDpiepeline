@@ -11,14 +11,14 @@ pipeline{
             }
         }
         stage("Build"){
-            step{
+            steps{
                 bat "dotnet restore"
                 bat "dotnet build --configuration Release"
             }
         }
         stage("Test"){
             steps{
-                bat "donet test --no--release --configration Release"
+              bat "dotnet test --no-restore --configuration Release"
             }
         }
         stage("publish"){
@@ -28,11 +28,9 @@ pipeline{
                 }
             }
         }
-       
-    }
-     post{
+        post{
             success{
                 echo "Build,Test,and publish stages completed succesfully."
             }
         }
-}
+    }
